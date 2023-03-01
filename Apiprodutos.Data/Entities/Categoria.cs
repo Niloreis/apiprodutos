@@ -11,9 +11,11 @@ namespace Apiprodutos.Data.Entities
         private Guid? _idcategoria;
         private string? _nome;
         private string? _descricao;
+        private List<Produto>? _produtos;
 
         public Guid? Idcategoria { get => _idcategoria; set => _idcategoria = value; }
         public string? Nome { get => _nome; set => _nome = value; }
         public string? Descricao { get => _descricao; set => _descricao = value; }
+        public List<Produto>? Produtos { get => _produtos; set => _produtos = value; }
     }
 }

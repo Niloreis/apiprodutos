@@ -15,6 +15,7 @@ namespace Apiprodutos.Data.Entities
         private int? _quantidade;
         private DateTime? _dataHoraCadatro;
         private Guid? _idCategoria;
+        private Categoria? _categoria;
 
         public Guid? IdProduto { get => _idProduto; set => _idProduto = value; }
         public string? Nome { get => _nome; set => _nome = value; }
@@ -23,5 +24,6 @@ namespace Apiprodutos.Data.Entities
         public int? Quantidade { get => _quantidade; set => _quantidade = value; }
         public DateTime? DataHoraCadatro { get => _dataHoraCadatro; set => _dataHoraCadatro = value; }
         public Guid? IdCategoria { get => _idCategoria; set => _idCategoria = value; }
+        public Categoria? Categoria { get => _categoria; set => _categoria = value; }
     }
 }
